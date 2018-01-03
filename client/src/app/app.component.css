@@ -1,5 +1,6 @@
-body{
+body html{
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -8,7 +9,7 @@ body{
     left: 0px;
     top: 0px;
     z-index: -1;
-    width: 100vw;
+    width: 100vw;;
     height: 100vh;
     background-color: rgb(83, 163, 228);
 }
@@ -20,12 +21,25 @@ body{
 }
 
 .topBar{
-    vertical-align: center;
     top: 1vh;
     width: 80vw;
     height: 10vh;
     background-color: rgb(226, 129, 65);
     border-radius: 5px;
+    text-align: right;
+    font-size: 5vh;
+    display: inline-flex;
+}
+
+.name{
+    position: relative;
+    left: 6vw;
+    font-size: 6vh;
+    padding-top: 1.1vh;
+    width: auto;
+    font-family: "Montserrat","Russo One";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 .sideNav{
