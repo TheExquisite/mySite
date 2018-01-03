@@ -1,0 +1,54 @@
+body{
+    justify-content: center;
+}
+
+
+.backgroundCanvas{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(83, 163, 228);
+}
+
+.pageWrapper{
+    position: absolute;
+    left: 10vw;
+    top: 8vh;
+}
+
+.topBar{
+    top: 1vh;
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+}
+
+.sideNav{
+    position: relative;
+    left: 0px;
+    width: 15vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.contentWrapper{
+    position: relative;
+    right: 0px;
+    width: 64vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+.centerWrapper{
+    display: inline-flex;
+    width: 80vw;
+}
+.centerSpacer{
+    width: 1vw;
+}
+.topSpacer{
+    height: 1vw;
+}
+
